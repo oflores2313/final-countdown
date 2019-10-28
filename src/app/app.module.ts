@@ -5,6 +5,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { CoreModule } from "./core/core.module";
+import { CountdownModule } from "ngx-countdown";
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,7 +14,8 @@ import { CoreModule } from "./core/core.module";
     AppRoutingModule,
     FontAwesomeModule,
     NgbModule,
-    CoreModule
+    CoreModule,
+    CountdownModule
   ],
   exports: [FontAwesomeModule],
   providers: [],
