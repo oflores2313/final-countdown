@@ -1,10 +1,20 @@
 /* You can add global styles to this file, and also import other style files*/
-@import '~bootstrap/dist/css/bootstrap.min.css';
-@import '~bootstrap/dist/css/bootstrap-reboot.min.css';
-@import '~bootstrap/dist/css/bootstrap-grid.min.css';
-@import '~@swimlane/ngx-datatable/index.css';
-@import '~@swimlane/ngx-datatable/themes/material.css';
-@import '~@swimlane/ngx-datatable/themes/bootstrap.css';
-@import '~@swimlane/ngx-datatable/assets/icons.css'; 
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/dist/css/bootstrap-reboot.min.css";
+@import "~bootstrap/dist/css/bootstrap-grid.min.css";
+@import "~@swimlane/ngx-datatable/index.css";
+@import "~@swimlane/ngx-datatable/themes/material.css";
+@import "~@swimlane/ngx-datatable/themes/bootstrap.css";
+@import "~@swimlane/ngx-datatable/assets/icons.css";
 
+body {
+  background-color: black;
+  /* background: radial-gradient(circle at 50% 100%, black, silver); */
+  color: white;
+}
 
+body > app-root > footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
