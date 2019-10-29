@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "students": {
+    "final": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/students",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "students:build"
+            "browserTarget": "final:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "students:build:production"
+              "browserTarget": "final:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "students:build"
+            "browserTarget": "final:build"
           }
         },
         "test": {
@@ -106,7 +106,7 @@
         }
       }
     },
-    "students-e2e": {
+    "final-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -115,11 +115,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "students:serve"
+            "devServerTarget": "final:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "students:serve:production"
+              "devServerTarget": "final:serve:production"
             }
           }
         },
@@ -135,5 +135,5 @@
       }
     }
   },
-  "defaultProject": "students"
+  "defaultProject": "final"
 }

@@ -9,9 +9,9 @@
     width: 50%;
     padding-top: 10px;
     text-align: center;
-    background: #1B1B1B;
+    
     border-radius: 50%;
-    box-shadow: 0 0px 15px 13px #1B1B1B;
+    /* box-shadow: 0 0px 15px 13px #1B1B1B; */
     font-family: monospace;
     opacity: .8;
 }
@@ -28,6 +28,7 @@
     color: black;
     font-size: 19px;
     padding-top: 30px;
+    box-shadow: 0 0px 15px 3px white;
 }
 .time-space{
     font-size: 4em;

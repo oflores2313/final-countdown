@@ -6,7 +6,7 @@
     -webkit-animation-duration: 30s;
 }
 .teslar{
-    height: 7em;
+    height: 14em;
 }
 @-webkit-keyframes run {
     0% { left: 0;}

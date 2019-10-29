@@ -8,9 +8,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Getting Started
 
-In order to be able to run this, you will need to open the students-api project and run `npm install` followed by `npm start` . That will open the project on `http://localhost:3001/`
+In order to be able to run this, you will need to open the final-api project and run `npm install` followed by `npm start` . That will open the project on `http://localhost:3001/`
 
-Once that is running, you can run `npm install` followed by `npm start` on this project (students)
+Once that is running, you can run `npm install` followed by `npm start` on this project (final)
 
 ## About the project
 
