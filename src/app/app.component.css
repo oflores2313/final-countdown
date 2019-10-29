@@ -11,4 +11,5 @@
 .spotify {
   position: fixed;
   bottom: 8em;
+  opacity: 0.1;
 }

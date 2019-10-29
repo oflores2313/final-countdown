@@ -1,13 +1,11 @@
 {
   "name": "students",
   "version": "0.0.0",
-  "main": "server.js",
   "author": "Oscar Flores",
   "license": "ISC",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start-api": "nodemon server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -40,13 +38,11 @@
     "font-awesome": "^4.7.0",
     "ngrx-store-logger": "^0.2.4",
     "ngx-bootstrap": "^5.1.2",
-    "ngx-countdown": "^8.0.2",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "nodemon": "^1.19.4",
     "@angular-devkit/build-angular": "~0.13.0",
     "@angular/cli": "~7.3.9",
     "@angular/compiler-cli": "~7.2.0",

@@ -1,0 +1,15 @@
+.tesla{
+    margin-top: 5em;
+    position: fixed;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 30s;
+}
+.teslar{
+    height: 7em;
+}
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 100%;}
+    100%{ left: 0;}
+}

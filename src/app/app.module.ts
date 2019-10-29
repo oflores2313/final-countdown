@@ -5,19 +5,19 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { CoreModule } from "./core/core.module";
-import { CountdownModule } from "ngx-countdown";
+import { TimeComponent } from './time/time.component';
+import { TeslaComponent } from './tesla/tesla.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, TimeComponent, TeslaComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     NgbModule,
-    CoreModule,
-    CountdownModule
+    CoreModule
   ],
-  exports: [FontAwesomeModule],
+  exports: [FontAwesomeModule, TimeComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
